@@ -2,17 +2,17 @@ import React from 'react';
 import { FaUserCircle, FaWallet } from 'react-icons/fa';
 
 const Navbar = () => {
+
+
+
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 mx-2">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">Faucets</a>
+                    <a className="font-bold text-3xl text-primary normal-case text-xl">Faucets</a>
                 </div>
 
                 <div className="flex-none">
-
-
-
 
 
                     <label htmlFor="my-modal-3" className="">
@@ -29,18 +29,6 @@ const Navbar = () => {
                             </select>
                         </div>
                     </label>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -80,13 +68,6 @@ const Navbar = () => {
 
                         </div>
                     </div>
-
-
-
-
-
-
-
 
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
