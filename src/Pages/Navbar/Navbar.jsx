@@ -1,7 +1,5 @@
 import React from 'react';
 import { FaUserCircle, FaWallet } from 'react-icons/fa';
-import cat from '../../assets/cat.png'
-import connect from '../../assets/connect.png';
 
 const Navbar = () => {
     return (
@@ -18,11 +16,38 @@ const Navbar = () => {
 
 
                     <label htmlFor="my-modal-3" className="">
-                        <div className='flex items-center border-4 rounded font-bold gap-2 px-3 py-1 '>
-                            <span><FaWallet></FaWallet></span>
-                            <span>Connect wallet</span>
+                        <div className='flex items-center border-4 rounded font-bold gap-2 mx-5 px-3 py-1 '>
+                            <select tabIndex={1} className=''>
+                                <option selected>Ethereum Rinkeby</ option>
+                                <option>Arbitrum Rinkeby</option>
+                                <option>Avalanche Fuji</option>
+                                <option>BNB Chain Testnet</option>
+                                <option>Harmony Testnet</option>
+                                <option>Fantom Testnet</option>
+                                <option>POA Network Sokol</option>
+                                <option>Polygon Mumbai</option>
+                            </select>
                         </div>
                     </label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                     <label htmlFor="my-wallet" className="">
