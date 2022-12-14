@@ -10,6 +10,7 @@ const Navbar = () => {
                 <div className="flex-1">
                     <a className="btn btn-ghost normal-case text-xl">Faucets</a>
                 </div>
+             
                 <div className="flex-none">
 
                     <label htmlFor="my-modal-3" className="">
